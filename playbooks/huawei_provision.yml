@@ -1,0 +1,8 @@
+---
+- name: Provision ONU on Huawei OLT
+  hosts: huawei_olt
+  gather_facts: no
+  tasks:
+    - name: Configure ONU on Huawei
+      debug:
+        msg: "Provisioning Huawei ONU with SN={{ onu_sn }}, Port={{ olt_port }}, VLAN={{ vlan_id }}"

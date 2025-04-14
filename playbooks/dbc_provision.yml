@@ -1,0 +1,8 @@
+---
+- name: Provision ONU on DBC OLT
+  hosts: dbc_olt
+  gather_facts: no
+  tasks:
+    - name: Configure ONU on DBC
+      debug:
+        msg: "Provisioning DBC ONU with SN={{ onu_sn }}, Port={{ olt_port }}, VLAN={{ vlan_id }}"

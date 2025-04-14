@@ -1,0 +1,19 @@
+all:
+  hosts:
+    huawei_olt:
+      ansible_host: 10.50.50.101
+      vendor: huawei
+    bdcom_olt:
+      ansible_host: 10.50.50.102
+      vendor: bdcom
+    vsol_olt:
+      ansible_host: 10.50.50.103
+      vendor: vsol
+    dbc_olt:
+      ansible_host: 10.50.50.104
+      vendor: dbc
+  vars:
+    ansible_user: oltadmin
+    ansible_password: yourPassword
+    ansible_connection: network_cli
+    ansible_network_os: generic

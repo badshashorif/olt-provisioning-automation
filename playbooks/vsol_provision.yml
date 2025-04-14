@@ -1,0 +1,8 @@
+---
+- name: Provision ONU on VSOL OLT
+  hosts: vsol_olt
+  gather_facts: no
+  tasks:
+    - name: Configure ONU on VSOL
+      debug:
+        msg: "Provisioning VSOL ONU with SN={{ onu_sn }}, Port={{ olt_port }}, VLAN={{ vlan_id }}"

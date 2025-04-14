@@ -1,0 +1,8 @@
+---
+- name: Provision ONU on BDCOM OLT
+  hosts: bdcom_olt
+  gather_facts: no
+  tasks:
+    - name: Configure ONU on BDCOM
+      debug:
+        msg: "Provisioning BDCOM ONU with SN={{ onu_sn }}, Port={{ olt_port }}, VLAN={{ vlan_id }}"
