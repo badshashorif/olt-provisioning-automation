@@ -55,22 +55,6 @@ display current-configuration port 0/1/0
 display ont info 0 0
 ```
 
----
-
-### `backup/README.md`
-
-```markdown
-# Backup & Restore Guide
-
-This section outlines commands to backup and restore configurations and databases for Huawei OLTs via TFTP.
-
-## 📤 Backup Commands
-```shell
-backup configuration tftp:10.11.104.5 backupconf.txt
-backup data tftp:10.11.104.5 bakdata.dat
-
-
-
 ## ✍️ Author
 
 Md Shoriful Islam
