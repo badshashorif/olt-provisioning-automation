@@ -52,7 +52,7 @@ display ont optical-info 0 1
 
 ## ✍️ Author
 
-MD Shoriful Islam
+Md Shoriful Islam
 
 ## 📄 License
 
