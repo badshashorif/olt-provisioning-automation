@@ -35,19 +35,17 @@ Each directory contains configurations and command references for the specific f
 
 
 ## ✅ Useful Commands
-
-Show Registered and Unregistered ONUs
-
+## Show Registered and Unregistered ONUs
 ```
 display board 0
 display ont autofind all
-
-Find ONU by MAC
-
+```
+## Find ONU by MAC
+```
 display ont info by-mac 00D1-9A01-03E7
-
-ONU Laser Diagnostics
-
+```
+## ONU Laser Diagnostics
+```
 interface gpon 0/15
 display ont optical-info 0 1
 ```
