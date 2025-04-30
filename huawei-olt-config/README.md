@@ -38,6 +38,7 @@ Each directory contains configurations and command references for the specific f
 
 Show Registered and Unregistered ONUs
 
+```
 display board 0
 display ont autofind all
 
@@ -49,6 +50,7 @@ ONU Laser Diagnostics
 
 interface gpon 0/15
 display ont optical-info 0 1
+```
 
 ## ✍️ Author
 
